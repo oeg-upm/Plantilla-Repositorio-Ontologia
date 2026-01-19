@@ -12,6 +12,16 @@ The scope of the XXX ontology is limited to ZZZ.
 
 The XXX ontology prefix is: XXX and it is published under the namespace: https://webdomain.ext/def/domain/subdomain# 
 
+# Ontology Conceptualization Image
+
+Every ontology development repository should include, in this root README, a visual representation of the ontology conceptualization.
+This image helps users and contributors quickly understand the ontology’s structure, key concepts, and relationships.
+- The image should be located in the conceptualization folder.
+- Accepted formats: .svg, .png, or .drawio.
+- It should be referenced in this README using Markdown syntax, for example:
+
+![Ontology Conceptualization Diagram](diagrams/diagram.png)
+
 # Reposity structure
 
 The repository should contain (at least) the following folders:
