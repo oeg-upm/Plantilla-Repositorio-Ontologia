@@ -19,7 +19,7 @@ The repository should contain (at least) the following folders:
 | Folder | Description |
 |--------|--------------|
 | **requirements/** | Contains all documents used to define the ontology’s requirements: data example, competency questions, functional requirements, use cases, etc. |
-| **conceptualization/** | Stores diagrams and other resources representing the conceptual model of the ontology (e.g., class hierarchies, relationships). |
+| **diagrams/** | Stores diagrams and other resources representing the conceptual model of the ontology (e.g., class hierarchies, relationships). |
 | **ontology/** | Contains the actual ontology implementation files in formats such as `.owl`, `.rdf`, `.ttl`, or `.jsonld`. |
 | **shapes/** | Contains the SHACL shapes used to define and validate ontology constraints. |
 | **examples/** | Includes examples that demonstrate how to instantiate or apply the ontology in real data scenarios. |
