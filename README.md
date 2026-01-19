@@ -1,60 +1,37 @@
-# Ontology Development Repository
+# XXX Ontology
 
-This repository contains all the resources required for the **development, documentation, validation, and implementation of an ontology**.  
-It serves as the central workspace for managing every stage of the ontology lifecycle — from requirements gathering and conceptualization to implementation, testing, and validation.
+The XXX ontology describes the domain of XXX
 
----
 
-## 📘 Purpose
-The purpose of this repository is to provide a **structured and consistent environment** for ontology engineering.  
-It ensures that all essential components are stored, versioned, and accessible in one place, while maintaining flexibility for different naming conventions across projects.
+# Purpose and scope of the vocabulary
 
----
+The purpose of the XXX ontology is to YYYY. 
+The scope of the XXX ontology is limited to ZZZ.
 
-## 📂 Repository Structure
+# Ontology prefix and namespace
+
+The XXX ontology prefix is: XXX and it is published under the namespace: https://webdomain.ext/def/domain/subdomain# 
+
+# Reposity structure
 
 The repository should contain (at least) the following folders:
 
 | Folder | Description |
 |--------|--------------|
-| **requirements/** | Contains all requirement documents used to define the ontology’s scope, competency questions, and use cases. |
+| **requirements/** | Contains all documents used to define the ontology’s requirements: data example, competency questions, functional requirements, use cases, etc. |
 | **conceptualization/** | Stores diagrams and other resources representing the conceptual model of the ontology (e.g., class hierarchies, relationships). |
-| **implementation/** | Contains the actual ontology implementation files in formats such as `.owl`, `.rdf`, `.ttl`, or `.jsonld`. |
+| **ontology/** | Contains the actual ontology implementation files in formats such as `.owl`, `.rdf`, `.ttl`, or `.jsonld`. |
 | **shapes/** | Contains the SHACL shapes used to define and validate ontology constraints. |
 | **examples/** | Includes examples that demonstrate how to instantiate or apply the ontology in real data scenarios. |
 | **tests/** | Stores tests (e.g., Themis, SPARQL, or automated scripts) to verify that the ontology fulfills its requirements. |
+| **documentation/** | Stores the HTML or human oriented documentation of the ontology and related artefacts. |
 
-> ⚠️ **Note:**  
-> The exact folder names may vary between repositories. For this reason, a configuration file (`.config`) must be included to specify the **relative paths** to each folder.
+# Project maintenance
 
----
+To manage those incidents or suggested improvements with respect to the vocabulary, we recommend you to follow
+the guides provided in [Issues Management](https://github.com/nombre-repositorio/wiki/issues-management) to
+generate an issue (work in progress)
 
-## ⚙️ Configuration File (`.config`)
+# Funding
 
-A `.config` file is required at the root of the repository.  
-This file defines the **relative paths** to each key folder, ensuring that tools, scripts, and automated workflows can locate them regardless of custom naming conventions.
-
-Example `.config` structure:
-```ini
-[paths]
-requirements = ./requirements
-conceptualization = ./diagrams
-implementation = ./ontology
-shapes = ./shacl-shapes
-examples = ./rdf-examples
-tests = ./tests
-```
-## 🧩 Ontology Conceptualization Image
-Every ontology development repository should include, in this root README, a visual representation of the ontology conceptualization.
-This image helps users and contributors quickly understand the ontology’s structure, key concepts, and relationships.
-- The image should be located in the conceptualization folder.
-- Accepted formats: .svg, .png, or .drawio.
-- It should be referenced in this README using Markdown syntax, for example:
-
-![Ontology Conceptualization Diagram](diagrams/diagram.png)
-
-## 🗂️ Notes
-- Keep the repository well-documented and modular.
-- Each subfolder should contain its own README.md explaining its contents and purpose.
-- Use version control and branching strategies to manage ontology evolution.
-- Ensure the conceptualization image is updated whenever the ontology structure changes.
+Add here project funding and needed images.
