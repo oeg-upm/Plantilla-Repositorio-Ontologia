@@ -23,7 +23,7 @@ The repository should contain (at least) the following folders:
 | **ontology/** | Contains the actual ontology implementation files in formats such as `.owl`, `.rdf`, `.ttl`, or `.jsonld`. |
 | **shapes/** | Contains the SHACL shapes used to define and validate ontology constraints. |
 | **examples/** | Includes examples that demonstrate how to instantiate or apply the ontology in real data scenarios. |
-| **tests/** | Stores tests (e.g., Themis, SPARQL, or automated scripts) to verify that the ontology fulfills its requirements. |
+| **kos/** | Stores controlled vocabularies or KOS implementation, usually SKOS implementations in rdf. |
 | **documentation/** | Stores the HTML or human oriented documentation of the ontology and related artefacts. |
 
 # Project maintenance
