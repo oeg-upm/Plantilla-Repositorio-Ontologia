@@ -22,7 +22,7 @@ Esta imagen ayuda a los usuarios y colaboradores a comprender rápidamente la es
 - Debe referenciarse en este README usando la sintaxis de Markdown, por ejemplo:
 
 
-![Diagrama del modelo conceptual](diagramas/diagrama.png)
+![Diagrama del modelo conceptual](diagrams/diagrama.png)
 
 # Estructura del repositorio
 
@@ -30,13 +30,13 @@ El repositorio debe contener (al menos) las siguientes carpetas
 
 | Carpeta | Descripción |
 |--------|--------------|
-| **diagramas/** | Contiene diagramas y otros recursos que representan el modelo conceptual de la ontología (por ejemplo, jerarquías de clases, relaciones). |
-| **documentacion/** | Contiene la documentación de la ontología y artefactos relacionados en formato HTML o dirigida a usuarios. |
-| **evaluacion/** | Contiene las pruebas para la evaluación de la ontología. |
-| **vocabularios/** | Contiene la implementación de vocabularios controlados o KOS, generalmente implementaciones SKOS en RDF.|
-| **ontologia/** | Contiene los archivos de implementación de la ontología en formatos como .owl, .rdf, .ttl o .jsonld |
-| **requisitos/** | Contiene todos los documentos utilizados para definir los requisitos de la ontología: ejemplos de datos, preguntas de competencia, requisitos funcionales, casos de uso, etc. |
-| **restricciones/** | Contiene las restricciones SHACL utilizad para validar datos respecto a la ontología.  |
+| **diagrams/** | Contiene diagramas y otros recursos que representan el modelo conceptual de la ontología (por ejemplo, jerarquías de clases, relaciones). |
+| **documentation/** | Contiene la documentación de la ontología y artefactos relacionados en formato HTML o dirigida a usuarios. |
+| **tests/** | Contiene las pruebas para la evaluación de la ontología. |
+| **kos/** | Contiene la implementación de vocabularios controlados o KOS, generalmente implementaciones SKOS en RDF.|
+| **ontology/** | Contiene los archivos de implementación de la ontología en formatos como .owl, .rdf, .ttl o .jsonld |
+| **requirements/** | Contiene todos los documentos utilizados para definir los requisitos de la ontología: ejemplos de datos, preguntas de competencia, requisitos funcionales, casos de uso, etc. |
+| **shapes/** | Contiene las restricciones SHACL utilizad para validar datos respecto a la ontología.  |
 
 # Mantenimiento del proyecto
 
